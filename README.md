@@ -1,47 +1,14 @@
-# Simple MVC
+1 - Create a db named mvc_challenge.
+2 - Import the sql file mvc_challenge_articles.sql into this database.
+3 - Connect your mvc to the database.
+4 - Create a class according to your articles table
+5 - Prepare an article index route that will return an index page with your controller
+6 - Render a view according to the route with a twig file
+7 - Display in this page a title and a list of all the articles present in the database, it will display the name the picture and the description of the products.
 
-## Description
+Bonus : 
 
-This repository is a simple PHP MVC structure from scratch.
-
-It uses some cool vendors/libraries such as Twig and Grumphp.
-For this one, just a simple example where users can choose one of their databases and see tables in it.
-
-### Prerequisites
-
-Create a repository on Github in WildCodeSchool organization following this exemple :
-**ville-session-language-project** as **bordeaux-0219-php-servyy**
-
-### Get starter kit
-
-1. Clone this project
-2. Remove `.git` folder to remove history
-3. `git init`
-4. Link to your project repository you'll give to your students : `git remote add origin ...`
-5. Edit `.travis.yml` file to change default e-mails settings to get notification checking tasks end
-6. Remove trainers instructions *(from Prerequisites to Configure you repository parts)*
-5. `git add .`
-6. `git commit -m "Init project repository"`
-7. `git push -u origin master`
-
-### Check on Travis
-
-1. Go on [https://travis-ci.com](https://travis-ci.com).
-2. Sign up if you don't have account,
-3. Look for your project in search bar on the left,
-4. As soon as your repository have a `.travis.yml` in root folder, Travis should detect it and run test.
-
-> You can watch this screenshot to see basic configuration : ![basic config](http://images.innoveduc.fr/symfony4/travis-config.png)
-
-
-
-### Configure you repository - Settings options
-
-1. Add your students team as contributor .
-2. Disallow both on 'dev' and 'master' branches your students writing credentials. 
-3. Disallow merge available while one approbation is not submitted on PR.
-
-> You can watch this very tiny short video : (Loom : verrouillage branches GitHub)[https://www.loom.com/share/ad0c641d0b9447be9e40fa38a499953b]
+8 - display them as articles cards with flexbox !
 
 
 ## Steps
