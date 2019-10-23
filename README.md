@@ -1,14 +1,14 @@
-1 - Create a db named mvc_challenge.
-2 - Import the sql file mvc_challenge_articles.sql into this database.
-3 - Connect your mvc to the database.
-4 - Create a class according to your articles table
-5 - Prepare an article index route that will return an index page with your controller
-6 - Render a view according to the route with a twig file
-7 - Display in this page a title and a list of all the articles present in the database, it will display the name the picture and the description of the products.
+1.  - Create a db named mvc_challenge.
+2. - Import the sql file mvc_challenge_articles.sql into this database.
+3. - Connect your mvc to the database.
+4. - Create a class according to your articles table
+5. - Prepare an article index route that will return an index page with your controller
+6. - Render a view according to the route with a twig file
+7. - Display in this page a title and a list of all the articles present in the database, it will display the name the picture and the description of the products.
 
-Bonus : 
+## Bonus : 
 
-8 - display them as articles cards with flexbox !
+8. - display them as articles cards with flexbox !
 
 
 ## Steps
