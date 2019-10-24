@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: grey solid 5px;
+    border-radius: 8px;
+    box-shadow: #2a2a2a 2px 2px 4px;
+    max-width: 200px;
+    padding : 16px;
+    text-align: center;
+}
+
+div img{
+    max-width : 100%;
+    max-height : 200px;
+}
+
+.card:hover{
+    box-shadow: #2a2a2a 2px 2px 8px;
+}
+
